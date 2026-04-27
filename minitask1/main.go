@@ -16,8 +16,8 @@ func main() {
 }
 
 func calculateCircle(r float32) (float32, float32) {
-	var area float32 = r * math.Phi
-	var circumference float32 = 2 * math.Phi * r
+	area := calculateArea(r)
+	circumference := calculateCircumference(r)
 	return area, circumference
 }
 
