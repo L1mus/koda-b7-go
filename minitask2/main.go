@@ -1,14 +1,10 @@
-package main
+package minitask2
 
 import (
 	"fmt"
 )
 
-func main() {
-	createTriangel(7)
-}
-
-func createTriangel(n int) {
+func CreateTriangel(n int) {
 	for i := range n {
 		for j := 0; j <= n-i; j++ {
 			fmt.Printf(" ")
@@ -18,6 +14,5 @@ func createTriangel(n int) {
 
 		}
 		fmt.Printf("\n")
-
 	}
 }
