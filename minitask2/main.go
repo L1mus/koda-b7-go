@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	createTriangel(5)
+	createTriangel(7)
 }
 
 func createTriangel(n int) {
