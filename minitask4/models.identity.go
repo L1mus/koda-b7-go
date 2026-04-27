@@ -1,13 +1,12 @@
-package main
+package minitask4
 
 import "fmt"
 
-type Education struct {
-	name  string
-	major string
-}
-
-func main() {
+func PrintData() {
+	type Education struct {
+		name  string
+		major string
+	}
 	type Identity struct {
 		name      string
 		picture   string
